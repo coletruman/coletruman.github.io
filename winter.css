@@ -14,19 +14,19 @@ body.fall{
 
 
 header, nav, section, footer {
-  background: white;
+  background: purple;
 }
 
 header {
-  background-color: darkblue;
-  color: white;
+  background-color: gold;
+  color: purple;
   text-align: center;
   font-size: 40px;
   padding: 20px;
 }
 
 nav {
-  background-color: blue;
+  background-color:white;
   padding: 20px;
   text-align: center;
 }
@@ -36,7 +36,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 20px;
   font-size: 120%;
@@ -45,8 +45,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: lightblue;
-  color: darkblue;
+  background-color: purple;
+  color: white;
 }
 
 nav ul {
@@ -55,17 +55,15 @@ nav ul {
 }
 
 section {
-  background-color: darkblue;
+  background-color: purple;
   overflow: auto;
 }
 
 aside {
-  background-color: darkblue;
+  background-color:purple;
   width: 25%;
   float: left;
   padding: 2% 0 0 0;
-  float: left;
-
 }
 aside a {
   text-decoration: none;
@@ -74,27 +72,27 @@ aside a {
   padding: 10px 10px 10px 30px;
 }
 aside a :hover{
-  background-color: lightblue;
+  background-color:black;
 }
 aside li{
   list-style-type: none;
 }
 aside ul{
-  margin: 0,0,0,0;
-  padding: 10;
+  margin: 10px,10px,10px,10px;
+  padding: 10px;
 }
 article{
   float: right;
-  background-color: lightblue;
+  background-color:white;
   width: 67%;
     padding: 4% 2%;
 }
 
 footer {
-  background-color: darkblue;
+  background-color: gold;
   text-align: center;
   padding:2%;
-  color: white;
+  color: black;
 }
 .yesbird{
   width: 35%;
@@ -105,7 +103,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
   body {
-    background-color: lightblue;
+    background-color: grey;
   }
   #wrap{
     width: 100%;
